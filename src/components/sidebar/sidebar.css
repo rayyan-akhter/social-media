@@ -1,0 +1,27 @@
+.sideBar{
+    flex:2;
+    width: 300px;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+    
+
+    
+}
+.sideBarWrapper{
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68) ;
+ }
+
+ .btn-container{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+}
+

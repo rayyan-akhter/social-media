@@ -1,0 +1,9 @@
+.myPostContainer{
+    padding: 20px;
+}
+.myPost{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* flex-direction: column; */
+}
